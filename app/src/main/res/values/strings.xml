@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">flower3</string>
+    <string name="hello_blank_fragment">Test -- 22 </string>
+    <string name="fragment_1_intro">Магазин цветов</string>
+    <string name="flover">FLOVER</string>
+    <string name="registrationtText">Зарегистрироавться</string>
+    <string name="logIn">Войти</string>
+
+
+</resources>

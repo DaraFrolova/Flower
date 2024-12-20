@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_2">
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="ru.dara.flower3.Fragment_2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment_2_to_fragment_3"
+            app:destination="@id/fragment_3" />
+        <action
+            android:id="@+id/action_fragment_2_to_fragment_4"
+            app:destination="@id/fragment_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="ru.dara.flower3.Fragment_3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" >
+        <action
+            android:id="@+id/action_fragment_3_to_fragment_4"
+            app:destination="@id/fragment_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_4"
+        android:name="ru.dara.flower3.Fragment_4"
+        android:label="fragment_4"
+        tools:layout="@layout/fragment_4" >
+        <action
+            android:id="@+id/action_fragment_4_to_fragment_5"
+            app:destination="@id/fragment_5" />
+        <action
+            android:id="@+id/action_fragment_4_to_fragment_3"
+            app:destination="@id/fragment_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_5"
+        android:name="ru.dara.flower3.Fragment_5"
+        android:label="fragment_5"
+        tools:layout="@layout/fragment_5" >
+        <argument
+            android:name="login1"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragment_5_to_fragment_6"
+            app:destination="@id/fragment_6" />
+        <action
+            android:id="@+id/action_fragment_5_to_fragment_9"
+            app:destination="@id/fragment_9" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_6"
+        android:name="ru.dara.flower3.Fragment_6"
+        android:label="fragment_6"
+        tools:layout="@layout/fragment_6" >
+        <action
+            android:id="@+id/action_fragment_6_to_fragment_7"
+            app:destination="@id/fragment_7" />
+        <argument
+            android:name="login2"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_7"
+        android:name="ru.dara.flower3.Fragment_7"
+        android:label="fragment_7"
+        tools:layout="@layout/fragment_7" >
+        <action
+            android:id="@+id/action_fragment_7_to_fragment_9"
+            app:destination="@id/fragment_9" />
+        <argument
+            android:name="login3"
+            app:argType="string" />
+        <argument
+            android:name="kol0"
+            app:argType="integer" />
+        <argument
+            android:name="price0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_8"
+        android:name="ru.dara.flower3.Fragment_8"
+        android:label="fragment_8"
+        tools:layout="@layout/fragment_8" />
+    <fragment
+        android:id="@+id/fragment_9"
+        android:name="ru.dara.flower3.Fragment_9"
+        android:label="fragment_9"
+        tools:layout="@layout/fragment_9" >
+        <argument
+            android:name="login1"
+            app:argType="string" />
+    </fragment>
+</navigation>

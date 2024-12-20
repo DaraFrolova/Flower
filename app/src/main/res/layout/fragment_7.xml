@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9E4"
+    tools:context=".Fragment_7">
+
+
+    <TextView
+        android:id="@+id/log0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="260dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Логин -"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/log1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="260dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="+++++++"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/adr0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Адрес доставки"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/adr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="------"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tel0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Телефон -"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="------"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/kol0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Количество цветов -"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kol1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="------"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Цена -"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="------"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_f7_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <Button
+        android:id="@+id/button_f7_1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#E38E9E"
+        android:fontFamily="@font/comfortaa"
+        android:text="Оплатить"
+        android:textColor="#FDF9F9"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_f7_2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#E38E9E"
+        android:fontFamily="@font/comfortaa"
+        android:text="Отредактировать профиль"
+        android:textColor="#FDF9F9"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/text_f6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Оформление заказа"
+        android:textColor="#E38E9E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
